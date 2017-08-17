@@ -3,6 +3,7 @@
 import tweepy
 
 def tweet( mTweet ):
+      # Moved to ./config.py
       CONSUMER_KEY = XXX
       CONSUMER_SECRET = XXX
       ACCESS_KEY = XXX
