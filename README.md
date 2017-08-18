@@ -1,10 +1,14 @@
 # weatherFeelings
 
-![alt text](https://raw.githubusercontent.com/lucasfr/weatherFeelings/master/docs/img/weatherfeelings-diagram.png) 
+The idea is to:
 
-This is a simple Twitter bot. It gets the current weather conditions from forecast.io and posts with a random GIF from giphy API.  
-  
-Next step is to retrieve the list of tweets with the hashtags #london and #weather and perform a satisfaction analysis in order to assess the public mood.  
+* Identify your location
+* Get the latest tweets with hashtag #weather near location using twitter api
+* Use a sentiment analysis tool e.g. Python NLTK to analyse the tweets 
+* Display: current weather, public mood and animated GIF
+* Options to tweet the result or save results to database (possibly with interval)
+
+![alt text](https://raw.githubusercontent.com/lucasfr/weatherFeelings/master/docs/img/weatherfeelings-diagram.png)  
 
 **Create Virtual Environment**
 
