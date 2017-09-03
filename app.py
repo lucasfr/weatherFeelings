@@ -18,5 +18,11 @@ def cacule():
 def malhada():
     return render_template('index.html')
 
+@app.route("/tweets/<lat>/<long>")
+def coords(lat, long):
+    page = 'Lat %s' % lat
+    page += ' Long %s' % long
+    return page
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=os.getenv('PORT'))
