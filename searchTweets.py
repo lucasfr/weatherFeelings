@@ -13,7 +13,7 @@ import csv
 
 latitude = 51.474144	# geographical centre of search
 longitude = -0.035401	# geographical centre of search
-max_range = 1 			# search range in kilometres
+max_range = 30 			# search range in kilometres
 num_results = 50		# minimum results to obtain
 outfile = "output.csv"
 
