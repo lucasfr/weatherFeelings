@@ -6,7 +6,7 @@
 #    and outputs them to a CSV file.
 #-----------------------------------------------------------------------
 
-from /libs/twitter import *
+from libs.twitter import *
 
 import sys
 import csv

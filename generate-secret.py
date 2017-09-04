@@ -7,10 +7,10 @@ Created on Tue Aug 22 08:51:43 2017
 # THIS SCRIPT GENERATES THE secret.py FILE THAT CONTAINS THE API KEYS
 # (PLEASE, INSERT THE KEYS WITH QUOTATION MARKS)
 
-CONSUMER_KEY = str(input("CONSUMER_KEY: "))
-CONSUMER_SECRET = str(input("CONSUMER_SECRET: "))
-ACCESS_KEY = str(input("ACCESS_KEY: "))
-ACCESS_SECRET = str(input("ACCESS_SECRET: "))
+consumer_key = str(input("CONSUMER_KEY: "))
+consumer_secret = str(input("CONSUMER_SECRET: "))
+access_key = str(input("ACCESS_KEY: "))
+access_secret = str(input("ACCESS_SECRET: "))
 
 
 f = open('secret.py', 'w')
