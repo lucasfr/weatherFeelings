@@ -7,6 +7,7 @@ The idea is to:
 * Use a sentiment analysis tool e.g. Python NLTK to analyse the tweets 
 * Display: current weather, public mood and animated GIF
 * Options to tweet the result or save results to database (possibly with interval)
+* Future network analysis
 
 ![alt text](https://raw.githubusercontent.com/lucasfr/weatherFeelings/master/docs/img/weatherfeelings-diagram.png)  
 
